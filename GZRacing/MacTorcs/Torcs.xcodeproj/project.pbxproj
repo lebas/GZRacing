@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -58,9 +58,9 @@
 		0F3EF3EE0DAF195F0010055F /* C-api.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAD0650DADBF2800FE87DD /* C-api.cpp */; };
 		0F3EF3EF0DAF195F0010055F /* Box.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAD0630DADBF2800FE87DD /* Box.cpp */; };
 		0F3EF3F00DAF19600010055F /* BBoxTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAD0610DADBF2800FE87DD /* BBoxTree.cpp */; };
-		0FAE1F0B0DB001E30076D073 /* plib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEAD1760DADC0C100FE87DD /* plib.framework */; };
-		0FAEA2660DA9D166003539AB /* track.so in Copy track.so */ = {isa = PBXBuildFile; fileRef = 0F2F53F20DA742E7000D370D /* track.so */; };
-		0FAEA3C80DA9DA4E003539AB /* ssggraph.so in Copy ssggraph.so */ = {isa = PBXBuildFile; fileRef = 0FAEA32D0DA9D8A2003539AB /* ssggraph.so */; };
+		0FAE1F0B0DB001E30076D073 /* plib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEAD1760DADC0C100FE87DD /* plib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0FAEA2660DA9D166003539AB /* track.so in Copy track.so */ = {isa = PBXBuildFile; fileRef = 0F2F53F20DA742E7000D370D /* track.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0FAEA3C80DA9DA4E003539AB /* ssggraph.so in Copy ssggraph.so */ = {isa = PBXBuildFile; fileRef = 0FAEA32D0DA9D8A2003539AB /* ssggraph.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		0FD184050DB62BC800B683EC /* rttelem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEACF960DADBF2400FE87DD /* rttelem.cpp */; };
 		0FD6BC540DAF06D80099A426 /* libGZRacing.dylib in Resources */ = {isa = PBXBuildFile; fileRef = 0FE722AA0DAC7AD3008D6F50 /* libGZRacing.dylib */; };
 		0FD6BCA30DAF0CAD0099A426 /* plib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEAD1760DADC0C100FE87DD /* plib.framework */; };
@@ -93,8 +93,8 @@
 		0FD6BD100DAF0FC40099A426 /* raceinit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEACF790DADBF2300FE87DD /* raceinit.cpp */; };
 		0FD6BD110DAF0FC40099A426 /* racegl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEACF770DADBF2300FE87DD /* racegl.cpp */; };
 		0FD6BD120DAF0FC40099A426 /* raceengine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEACF740DADBF2300FE87DD /* raceengine.cpp */; };
-		0FD9A0050DAB2225008A07B8 /* simuv2.so in Copy simuv2.so */ = {isa = PBXBuildFile; fileRef = 0FD99F990DAB1FE7008A07B8 /* simuv2.so */; };
-		0FD9A00D0DAB2281008A07B8 /* telemetry.so in Copy telemetry.so */ = {isa = PBXBuildFile; fileRef = 0FD9A00A0DAB2240008A07B8 /* telemetry.so */; };
+		0FD9A0050DAB2225008A07B8 /* simuv2.so in Copy simuv2.so */ = {isa = PBXBuildFile; fileRef = 0FD99F990DAB1FE7008A07B8 /* simuv2.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0FD9A00D0DAB2281008A07B8 /* telemetry.so in Copy telemetry.so */ = {isa = PBXBuildFile; fileRef = 0FD9A00A0DAB2240008A07B8 /* telemetry.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		0FE722BF0DAC7B98008D6F50 /* libGZRacing.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE722AA0DAC7AD3008D6F50 /* libGZRacing.dylib */; };
 		0FE722FF0DAC7CBF008D6F50 /* libGZRacing.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE722AA0DAC7AD3008D6F50 /* libGZRacing.dylib */; };
 		0FE7233B0DAC7D62008D6F50 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F2F4B680DA7240F000D370D /* GLUT.framework */; };
@@ -189,8 +189,8 @@
 		0FEAD5890DADD89A00FE87DD /* libpng.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC8D0DADBCE800FE87DD /* libpng.framework */; };
 		0FEAD58A0DADD89C00FE87DD /* zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC910DADBCF400FE87DD /* zlib.framework */; };
 		0FEAD59C0DADD90800FE87DD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FAEA2590DA9D0D5003539AB /* OpenGL.framework */; };
-		0FEAD5EF0DADDA8C00FE87DD /* libpng.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC8D0DADBCE800FE87DD /* libpng.framework */; };
-		0FEAD5F30DADDA8F00FE87DD /* zlib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC910DADBCF400FE87DD /* zlib.framework */; };
+		0FEAD5EF0DADDA8C00FE87DD /* libpng.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC8D0DADBCE800FE87DD /* libpng.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		0FEAD5F30DADDA8F00FE87DD /* zlib.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC910DADBCF400FE87DD /* zlib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		0FEADED90DADE6FA00FE87DD /* ssggraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0FEAD0200DADBF2600FE87DD /* ssggraph.cpp */; };
 		0FEB49300DBEB37F00282367 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEB492F0DBEB37F00282367 /* OpenAL.framework */; };
 		0FEB49570DBEB44500282367 /* zlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEABC910DADBCF400FE87DD /* zlib.framework */; };
@@ -5042,7 +5042,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					8D1107260486CEB800E47090 = {
 						DevelopmentTeam = LNU3U6S4YR;
@@ -5050,7 +5050,7 @@
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Torcs" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -5646,6 +5646,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -5671,6 +5672,7 @@
 		0F2F53F90DA742EC000D370D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5694,6 +5696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -5722,6 +5725,7 @@
 		0FAEA3890DA9D9C2003539AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5750,6 +5754,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -5775,6 +5780,7 @@
 		0FD99F820DAB1E46008A07B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5796,6 +5802,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -5822,6 +5829,7 @@
 		0FD99F9F0DAB1FFE008A07B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5843,6 +5851,7 @@
 		0FD9A0160DAB22BC008A07B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5864,6 +5873,7 @@
 		0FD9A0170DAB22BC008A07B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5886,6 +5896,7 @@
 		0FE71DEE0DAC5942008D6F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
@@ -5897,6 +5908,7 @@
 		0FE71DEF0DAC5942008D6F50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				PRODUCT_NAME = "Dynamic Libraries";
@@ -5907,6 +5919,7 @@
 		0FE722EC0DAC7C0B008D6F50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				EXECUTABLE_PREFIX = lib;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5925,6 +5938,7 @@
 		0FE722ED0DAC7C0B008D6F50 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_PREFIX = lib;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5944,6 +5958,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -5969,6 +5984,7 @@
 		1362E1F611AE7B5C00AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -5990,6 +6006,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6015,6 +6032,7 @@
 		1362E6EB11AE7D9100AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6036,6 +6054,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6061,6 +6080,7 @@
 		1362E70611AE7DB300AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6082,6 +6102,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6107,6 +6128,7 @@
 		1362E72111AE7DD600AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6128,6 +6150,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6153,6 +6176,7 @@
 		1362E75811AE7E2700AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6174,6 +6198,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6199,6 +6224,7 @@
 		1362E77911AE7E4A00AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6220,6 +6246,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6245,6 +6272,7 @@
 		1362E79111AE7E6200AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6266,6 +6294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6291,6 +6320,7 @@
 		1362E7B811AE7EB600AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6312,6 +6342,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6337,6 +6368,7 @@
 		1362E7D011AE7ED600AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6358,6 +6390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = NO;
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -6383,6 +6416,7 @@
 		1362E80211AE7F4B00AF3D9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				COPY_PHASE_STRIP = YES;
 				EXECUTABLE_EXTENSION = so;
 				EXECUTABLE_PREFIX = "";
@@ -6403,7 +6437,7 @@
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = GZRacing.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
@@ -6424,6 +6458,7 @@
 				INSTALL_OWNER = "";
 				KEEP_PRIVATE_EXTERNS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Solution4Mac.GZRacing;
 				PRODUCT_NAME = GZRacing;
 				STRIP_STYLE = debugging;
 				WRAPPER_EXTENSION = app;
@@ -6434,7 +6469,7 @@
 		C01FCF4C08A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CODE_SIGN_ENTITLEMENTS = GZRacing.entitlements;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6451,6 +6486,7 @@
 				INSTALL_OWNER = "";
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Solution4Mac.GZRacing;
 				PRODUCT_NAME = GZRacing;
 				WRAPPER_EXTENSION = app;
 			};
@@ -6460,16 +6496,39 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALTERNATE_PERMISSIONS_FILES = "";
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer: Luiz Eduardo Braga de Alencar Santos (W5TF5P6EYB)";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"@executable_path/../Frameworks",
 					"$(SRCROOT)/Frameworks",
 				);
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_PKGINFO_FILE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -6481,7 +6540,8 @@
 				INSTALL_GROUP = "";
 				INSTALL_MODE_FLAG = "";
 				LIBRARY_SEARCH_PATHS = "@executable_path/../Resources";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = GZRacing;
 				PROVISIONING_PROFILE = "B247C84B-E070-4958-B728-20EB0E676C74";
 				SDKROOT = macosx;
@@ -6497,16 +6557,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALTERNATE_PERMISSIONS_FILES = "";
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer: Luiz Eduardo Braga de Alencar Santos (W5TF5P6EYB)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"@executable_path/../Frameworks",
 					"$(SRCROOT)/Frameworks",
 				);
 				GCC_ENABLE_SSE3_EXTENSIONS = YES;
 				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_PKGINFO_FILE = NO;
 				HEADER_SEARCH_PATHS = (
@@ -6518,7 +6600,7 @@
 				INSTALL_GROUP = "";
 				INSTALL_MODE_FLAG = "";
 				LIBRARY_SEARCH_PATHS = "@executable_path/../Resources";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = GZRacing;
 				PROVISIONING_PROFILE = "B247C84B-E070-4958-B728-20EB0E676C74";
 				SDKROOT = macosx;
